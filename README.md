@@ -19,7 +19,7 @@ Challenge 1's storyline starts with Louise, a potential candidate looking to com
 ### Outcomes based on Goals
   For this evaluation, I made a table with rules to categorize the goal by price. This way, I can see which goals are commonly reached. From here, I used the countif() function to count every successful, failed and canceled campaign within each $ bracket for theater. Then, I summed up the totals, and created columns to give me a % for each parent category. Creating a line graph from this data gives me a lot to review. I can see, while it’s not common to cancel as I learned from my first table, campaigns with high goals above $10,000 are more likely to be canceled. I can see that besides some outliers, successful campaigns usually ask for smaller amounts of money. There is a spike in failures as the goal rises. Despite this, we do have the $35,000-40,000 group hitting their goal despite all odds. 
   
-![Outcomes_vs_Goals](https://user-images.githubusercontent.com/96705257/147432878-d916377f-ccb8-411a-8ec9-d837980c517b.png)
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/96705257/147433056-f3728015-a769-4886-a93f-0b6116f30bbd.png)
 
 ### Challenges
   A challenge I was faced with was making sure I was evaluating the correct data set. When wanting to gather data about outcomes, I needed to know when they started the campaign. For this, I had to use a formula to calculate the date, add it to epoch, then format it to my liking. Otherwise, it would have stayed in scientific mode. 
