@@ -7,6 +7,7 @@ Challenge 1's storyline starts with Louise, a potential candidate looking to com
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Analysis and Assessment of Challenges
 ### Gathering data
+![147432878-d916377f-ccb8-411a-8ec9-d837980c517b](https://user-images.githubusercontent.com/96705257/147432887-731410d1-3fb2-4e2a-852d-b9224f97ac1e.png)
 
   I started by copy and pasting my data into an excel workbook, to give me a playground to maneuver data. I froze my top column, threw on a filter and started analyzing the goals vs pledges. The dataset was pulling dates staring from epoch, so I made 2 columns for “date creation” and “ended” conversion and formatted it to short date. Next, I made a start year column using the =Years() function. I also wanted to display the months campaigns started, so I used the =TEXT(T2,”mmm”) function. This gave me the data I needed to start pivoting. 
 
@@ -18,7 +19,7 @@ Challenge 1's storyline starts with Louise, a potential candidate looking to com
 ### Outcomes based on Goals
   For this evaluation, I made a table with rules to categorize the goal by price. This way, I can see which goals are commonly reached. From here, I used the countif() function to count every successful, failed and canceled campaign within each $ bracket for theater. Then, I summed up the totals, and created columns to give me a % for each parent category. Creating a line graph from this data gives me a lot to review. I can see, while it’s not common to cancel as I learned from my first table, campaigns with high goals above $10,000 are more likely to be canceled. I can see that besides some outliers, successful campaigns usually ask for smaller amounts of money. There is a spike in failures as the goal rises. Despite this, we do have the $35,000-40,000 group hitting their goal despite all odds. 
   
-![Outcomes_vs_Goals](https://user-images.githubusercontent.com/96705257/147432794-65cd47ab-b9fd-4861-91d6-4fc503dfadbf.png)
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/96705257/147432878-d916377f-ccb8-411a-8ec9-d837980c517b.png)
 
 ### Challenges
   A challenge I was faced with was making sure I was evaluating the correct data set. When wanting to gather data about outcomes, I needed to know when they started the campaign. For this, I had to use a formula to calculate the date, add it to epoch, then format it to my liking. Otherwise, it would have stayed in scientific mode. 
